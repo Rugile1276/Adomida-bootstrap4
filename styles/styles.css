@@ -116,9 +116,15 @@ footer .copyright{
 }
 
 @media only screen and (max-width: 770px) {
-
+	#mainPage .carousel-inner {
+	    padding: 40px 20px;
+	}
   #mainPage .carousel-item div{
-    font-size: 2.5em;
+    font-size: 1.5em;
+  }
+  #mainPage .carousel-item span{
+  	margin-top: 40px;
+    font-size: 1em;
   }
 /*  header .title img {
     max-width: 300px;
