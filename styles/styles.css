@@ -13,10 +13,10 @@ body {
 .carousel{
 	color: white;
 }
-/*
-.carousel-control-next, .carousel-control-prev, .carousel-indicators {
-    padding-top: 200px;
-}*/
+
+.row{
+	margin: 0 auto;
+}
 
 .main {
 	padding-top: 200px;
@@ -50,9 +50,6 @@ hr{
   border-color: #0ba1a4;
 }
 
-.feedback{
-
-}
 
 /* ---------------- Footer ---------------- */
 
@@ -94,9 +91,9 @@ footer .copyright{
 
 #myFooter .fa {
     font-size: 30px;
-    margin-right: 15px;
+    margin-right: 70px;
     margin-left: 20px;
-    color: #192a2e;
+    color: black;
     border-radius: 51%;
     padding: 10px;
     height: 50px;
@@ -126,13 +123,4 @@ footer .copyright{
   	margin-top: 40px;
     font-size: 1em;
   }
-/*  header .title img {
-    max-width: 300px;
-  }
-  main h2{
-    font-size: 30px;
-  }
-  .nav{
-    overflow: hidden;
-  }*/
 }

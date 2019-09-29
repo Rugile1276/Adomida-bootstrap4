@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
+    <!-- For animated slide in -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
-
   <!-- HEAADER BEGINS -->
   <header id="home">
     <div>
@@ -94,11 +101,11 @@
   </main>
 <!-- MAIN SECTION ENDS -->
 
-<!-- MAIN ADDITIONAL STARTS -->
+<!-- ABOUT STARTS -->
     <section id="about" class="bg-light pb-5">
       <div class="container">
         <div class="row pt-5 pb-5">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4" data-aos="flip-left">
             <div class="d-block text-center">
               <div class="icon mb-3"><span class="ion-bookmark text-primary"></span></div>
               <div class="">
@@ -109,7 +116,7 @@
             </div>  
 
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4" data-aos="flip-left">
             <div class="media block-6 d-block text-center">
               <div class="icon mb-3"><span class="ion-leaf text-primary"></span></div>
               <div class="">
@@ -121,7 +128,7 @@ Additionally, we employ several smaller hauliers to work under our name. To this
             </div> 
 
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4" data-aos="flip-left">
             <div class="d-block text-center">
               <div class="icon mb-3"><span class="ion-heart text-primary"></span></div>
               <div class="">
@@ -136,7 +143,7 @@ Fresh and frozen goods.</p>
         </div>
       </div>
     </section>
-<!-- MAIN ADDITIONAL ENDS -->
+<!-- ABOUT ENDS -->
 
 <!-- CARGO CARRIAGE SERVICE STARTS -->
   <section id="carriage" class="container pt-5 pb-5">
@@ -144,28 +151,28 @@ Fresh and frozen goods.</p>
     <hr class="pb-5">
     <div class="row align-items-center">
         <div class="row container">
-          <div class="col-md-5 col-12 m-4 p-4 bg-light">
+          <div class="col-md-5 col-12 m-4 p-4 bg-light" data-aos="zoom-in">
             <i class="fas fa-truck"></i>
             <h4 id="langCargoCarriageToEasternEurope">Fresh and frozen goods deliveries</h4>
             <div id="langCargoCarriageToEasternEuropeDesc">
                 Constant deliveries of fresh and frozen goods in Central Europe. Trailer temperature range from -25 to +25 Celsius. Deliveries of frozen meat and vegetables between Netherlands, Belgium, Germany, Italy, France, Spain, Austria, Czech Republic, Slovenia, Slovakia and Hungary. Most trailers equipped with 33 euro pallets if the customer requires pallet exchange
             </div>
           </div>
-          <div class="col-md-5 col-12 m-4 p-4 bg-light">
+          <div class="col-md-5 col-12 m-4 p-4 bg-light" data-aos="zoom-in">
             <i class="fas fa-ship"></i>
             <h4 id="langCargoCarriageSeaTransportation">Oversized loads</h4>
               <div id="langCargoCarriageSeaTransportationDesc">
                 Network of subcontrators for deliveries of oversized loads with Mega, Road-train and platform trailers. We are a partner of several Germany spedition companies for deliveries of military vehicles and equipment to Lithuania and Latvia.
               </div>
           </div>
-          <div class="col-md-5 col-12 m-4 p-4 bg-light">
+          <div class="col-md-5 col-12 m-4 p-4 bg-light" data-aos="zoom-in">
             <i class="fas fa-compass"></i>
             <h4 id="langCargoCarriageWesternEurope">Cargo carriage in Western Europe</h4>
               <div id="langCargoCarriageWesternEuropeDesc">
                 Daily steel, paper, construction materials and frozen goods deliveries in Benelux, France and Germany
               </div>
           </div>
-          <div class="col-md-5 col-12 m-4 p-4 bg-light">
+          <div class="col-md-5 col-12 m-4 p-4 bg-light" data-aos="zoom-in">
             <i class="fas fa-dolly"></i>
             <h4 id="langPartlyCargoCarriage">FTL and LTL</h4>
               <div id="langPartlyCargoCarriageDesc">
@@ -182,7 +189,9 @@ Fresh and frozen goods.</p>
     <div class="container">
       <h1 class="text-center pt-5 pb-4 font-weight-bold">Warehousing services</h1>
       <div class="row align-items-center">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <div class="container text-center">
             <ul class="list-group-flush">
               <li class="list-group-item">Preparing and issuing Export Declaration (EX) for any EU natural or juridical persons</li>
@@ -193,7 +202,9 @@ Fresh and frozen goods.</p>
             </ul>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <img src="images/warehousing.jpg" class="img-fluid float-right">
         </div>
       </div>
@@ -241,7 +252,7 @@ Fresh and frozen goods.</p>
     <p class="text-center"><i class="fas fa-id-card"></i></p>
     <div class="row align-items-center">
         <div class="row container">
-          <div class="col-md-5 col-12  m-4 p-4 bg-light">
+          <div class="col-md-5 col-12  m-4 p-4 bg-light" data-aos="zoom-in">
             <ul>
               <li><b id="langOwner">General Manager</b>: Adomas Žiukas</li>
               <li><b id="langPhone">Phone</b>: <a href="tel:+37067914001">+37067914001</a></li>
@@ -249,7 +260,7 @@ Fresh and frozen goods.</p>
               <li><b id="skype">Skype</b>: uab.adomida</li>
             </ul>
           </div>
-          <div class="col-md-5 col-12  m-4 p-4 bg-light">
+          <div class="col-md-5 col-12  m-4 p-4 bg-light" data-aos="zoom-in">
             <ul>
               <li><b id="langManager">Head of Transport</b>: Arminas Samukėnas</li>
               <li><b id="langPhone">Phone</b>: <a href="tel:+37060414311">+370 604 14311</a></li>
@@ -257,7 +268,7 @@ Fresh and frozen goods.</p>
               <li><b>Skype</b>: live:9fa9f08a1f92d940</li>
             </ul>
           </div>
-          <div class="col-md-5 col-12  m-4 p-4 bg-light">
+          <div class="col-md-5 col-12  m-4 p-4 bg-light" data-aos="zoom-in">
             <ul>
               <li><b id="langManager">Head of Spedition</b>: Tomas Bučelis</li>
               <li><b id="langPhone">Phone</b>: <a href="tel:+37060105340">+370 601 05340</a></li>
@@ -265,7 +276,7 @@ Fresh and frozen goods.</p>
               <li><b>Skype</b>: tomas.bucelis</li>
             </ul>
           </div>
-          <div class="col-md-5 col-12  m-4 p-4 bg-light">
+          <div class="col-md-5 col-12  m-4 p-4 bg-light" data-aos="zoom-in">
             <ul>
               <li><b id="langManager">Business Development</b>: Arminas Jučas</li>
               <li><b id="langPhone">Phone</b>: <a href="tel:+37060414460">+37060414460</a></li>
@@ -273,6 +284,11 @@ Fresh and frozen goods.</p>
               <li><b>Skype</b>: live:3d8ab328b0ab5c35</li>
             </ul>
           </div>
+          <div class="container d-flex justify-content-end">
+            <a href="#home">
+              <button class="btn btn-primary">Go Up</button>
+            </a>
+        </div>
         </div>
     </div>
   </section>
@@ -292,11 +308,12 @@ Fresh and frozen goods.</p>
       </div>
       <hr>
       <div class="copyright pt-2 pb-3">
-        <p>Copyright 2019 by Rugile Žiukienė</p>
+        <p>Copyright 2019 by Rugilė Žiukienė</p>
       </div>
   </footer>
 
 
+  <script type="text/javascript" src="index.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
